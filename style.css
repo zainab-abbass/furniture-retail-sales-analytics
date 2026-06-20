@@ -105,6 +105,12 @@ p{ font-size:clamp(16px,1.2vw,18px); }
 .nav__links a:hover::after{ width:100%; }
 @media(max-width:760px){ .nav__links{ display:none; } }
 
+.nav-back{
+    color:#fff; font-size:14px; font-weight:600; letter-spacing:.5px;
+    transition:color .25s var(--ease);
+}
+.nav-back:hover{ color:var(--gold); }
+
 /* =========================================================
    HERO
    ========================================================= */
