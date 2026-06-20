@@ -381,3 +381,9 @@ a:focus-visible, button:focus-visible, .shot__frame:focus-visible{
     *{ animation:none !important; transition:none !important; scroll-behavior:auto !important; }
     .reveal{ opacity:1; transform:none; }
 }
+/* tighter heading tracking for a sleeker look */
+h1, h2, h3,
+.hero-text h1, .section-title, .about-title,
+.featured-title, .featured-subtitle{
+    letter-spacing:-0.02em;
+}
